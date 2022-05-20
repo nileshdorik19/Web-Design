@@ -1,0 +1,19 @@
+<html>
+<head></head>
+ <body>
+  <form>
+  <input type="text" id="f1" placeholder="enter number">
+  <input type="button" value="table" onclick="table()">
+  </form>
+ </body>
+ <script>
+ function table()
+ {
+	num=parseInt(document.getElementById("f1").value)
+	for (i=1; i<=10; i++)
+	{
+	  document.write(i*num +"<br>")
+	}
+ }
+ </script>
+</html>
