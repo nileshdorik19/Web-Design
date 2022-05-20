@@ -1,0 +1,29 @@
+<html><head>
+ </head>
+ <body>
+  <script>
+	function bca1()
+	{
+		document.bgColor="yellow";
+    }
+	function bca2()
+	{
+		document.bgColor="red";
+	}
+    function bca3()
+	{
+		document.bgColor="green";
+	}
+    function bca4()
+	{
+		document.bgColor="aqua";
+	}
+   </script>
+ <form>
+ <input type="button" value="clickme" onClick="bca1()">
+<input type="button" value="touch" onMouseOver="bca2()">
+<input type="button" value="result" onKeyPress="bca3()">
+<input type="button" value="show" onclick="bca4()">
+ </form>
+ </body>
+</html>
