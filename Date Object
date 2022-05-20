@@ -1,0 +1,29 @@
+<html>
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+  var d= new Date()
+  document.write(d.getHours())
+  document.write("/")
+  document.write(d.getMinutes())
+  document.write("/")
+  document.write(d.getSeconds())
+  </script>
+ </body>
+</html>
+
+<html>
+<body>
+<script>
+  var d1= new Date()
+  document.write(d1.getDate())
+  document.write("/")
+  document.write(d.getMonth()+1)
+  document.write("/")
+  document.write(d.getFullYear())
+
+
+</script>
+</body>
+</html>
