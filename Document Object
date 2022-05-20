@@ -1,0 +1,16 @@
+<html>
+ <body>
+  <script>
+  var a,b;
+  a=document.title;
+  b=document.write(a+"<br>");
+  a=document.lastModified;
+  b=document.write(a+"<br>");
+  a=document.body;
+  b=document.write(a+"<br>");
+  a=document.URL;
+  b=document.write(a+"<br>");
+  b=document.write("print message");
+  </script>
+ </body>
+</html>
